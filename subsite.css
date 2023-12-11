@@ -344,45 +344,15 @@ main a:hover span{
 main a:hover{
     color: #7ac64d;
 }
-
-/* main container left */
-
-.main-container-left{
-    padding: 30px 10px;
-}
-
-.main-container-left > h2{
-    padding: 15px 0 15px 30px;
-}
-
-.main-container-left h3{
-    padding: 10px 0;
-    font-size: 18px;
-    font-family: var(--heading);
-}
-
-.main-container-left p{
-    font-size: 15px;
-    font-weight: 300;
-}
-
-.main-container-left article{
-    padding: 10px;
-}
-
-.container-top-left{
-    padding: 15px 30px;
-}
-
-.container-bottom-left{
-    background: #f3f3f3;
-    margin: 15px 30px;
-}
-
 /*** main container right */
 
 .main-container-right{
     padding: 30px 10px;
+    position: absolute;
+    right: 0;
+    float: right;
+    width: 30%; /* Adjust the width as needed */
+    margin-left: 20px; /* Add some margin for spacing */
 }
 
 .main-container-right > h2{
@@ -431,6 +401,10 @@ main a:hover{
 
 
 /****** footer *****/
+  footer {
+    bottom: 0;
+    width: 100%;
+  }
 
 footer{
     background: #252525;
