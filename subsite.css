@@ -326,7 +326,15 @@ hr{
 }
 
 /** main ***/
-
+.main {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+  }
+  
+  .main-container-right {
+    display: flex;
+    flex-direction: column;
+  }
 main a{
     padding: 15px 0;
     display: block;
@@ -525,23 +533,14 @@ footer > p{
     .top-head{
         flex: 0 0 15%;
     }
-
-    .nav-bar{
-        flex: 1 0 auto;
-        height: 100%;
-        background: transparent;
+    /* Assuming the left section is the first child of <main> */
+    main > section {
+        flex: 0 0 20%;
     }
 
-    .nav-bar nav ul{
-        display: flex;
-        justify-content: center;
-    }
-    .nav-bar nav ul li{
-        padding-right: 30px;
-    }
-
-    .nav-bar nav ul li:hover{
-        background: none;
+    /* Adjust the right section to take the remaining space */
+    .main-container-right {
+        flex: 1;
     }
 
     /* social icons */
@@ -577,13 +576,20 @@ footer > p{
 @media(min-width: 992px){
     main{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 25% 70%;
+        grid-gap: 25px;
     }
 }
 
 @media(min-width: 1080px){
+    .main {
+        display: grid;
+        grid-template-columns: 20% 1fr;
+      }
     .banner{
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 25% 70%;
+        grid-gap: 25px;
     }
+    
 }
 
