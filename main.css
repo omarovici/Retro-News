@@ -231,7 +231,7 @@ hr {
     padding: 14px 18px;
     font-size: 1.2rem;
     font-family: 'Kelly Slab', serif;
-    transition: background 1s ease;
+    transition: background 0.3s ease;
 }
 
 .banner-main-content button a {
@@ -244,7 +244,7 @@ hr {
 }
 
 .banner-main-content button:hover a {
-    color: #0d0a0b;
+    color: #A87E62;
 }
 
 
