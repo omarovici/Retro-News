@@ -68,7 +68,7 @@ body {
   .nav-links li a {
     position: relative;
     color: #333;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
     padding: 6px 0;
     text-decoration: none;
@@ -128,7 +128,7 @@ body {
 }
 
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Kelly Slab', serif;
     background: #fff;
 }
 
