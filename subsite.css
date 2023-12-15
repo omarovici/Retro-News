@@ -394,8 +394,8 @@ main a:hover{
 }
 
 .main-container-right img {
-    width: 300px;
-    height: 236px;
+    width: 250px;
+    height: 250px;
     align-self: center; /* Assuming this is in a flexbox context for vertical alignment */
     /* Additional properties to control image position */
     margin-left: 0px; /* Example: Adds 20px margin to the left */
