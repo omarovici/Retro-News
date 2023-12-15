@@ -133,7 +133,7 @@ font-family: 'Raleway', sans-serif;
 }
 body {
     height: 100vh;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -559,59 +559,6 @@ main a:hover {
 }
 
 
-/****** footer *****/
-
-footer {
-    background: #966340;
-    color: #f3f3f3;
-    padding: 30px;
-}
-
-footer h2 {
-    padding: 10px 0;
-}
-
-footer p {
-    padding: 10px 0;
-    line-height: 1.3;
-}
-
-.footer-left,
-.footer-right {
-    margin: 0 20px;
-}
-
-footer>p {
-    text-align: center;
-    opacity: 0.8;
-    margin-top: 20px;
-}
-
-.footer-right i {
-    font-size: 1.8rem;
-    color: #808080;
-}
-
-.footer-right input {
-    font-size: 18px;
-    border: none;
-    background: transparent;
-    outline: none;
-    color: #808080;
-    padding-right: 10px;
-    width: 100%;
-}
-
-.footer-right div {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    width: 200px;
-    padding: 10px 0;
-    border-bottom: 1.6px solid #808080;
-}
-
-
 
 @media(max-width: 460px) {
     .hot-topic-content h2 {
@@ -698,36 +645,7 @@ footer>p {
         background: none;
     }
 
-    /* social icons */
-    .social-icons {
-        flex: 0 1 30%;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .social-icons .fab {
-        color: #fff;
-        font-size: 2rem;
-    }
-
-    .social-icons ul {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 20px;
-    }
-
-    .social-icons ul li {
-        padding: 20px;
-    }
-
-    .footer-container {
-        display: flex;
-    }
-
-    .footer-right,
-    .footer-left {
-        flex: 1;
-    }
+    
 }
 
 @media(min-width: 992px) {
@@ -742,3 +660,56 @@ footer>p {
         grid-template-columns: 1fr 2fr;
     }
 }
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
