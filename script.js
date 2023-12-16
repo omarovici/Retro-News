@@ -11,12 +11,10 @@ $(document).ready(function() {
     slides.eq(slideIndex).fadeIn();
     updateBullet(slideIndex);
   }
-
   function updateBullet(index) {
     $('.slide_buttons .slide_btn').removeClass('active');
     bulletArray[index].addClass('active');
   }
-
   slides.each(function(index) {
     var $button = $('<a class="slide_btn">&bull;</a>');
     if (index === slideIndex) {
