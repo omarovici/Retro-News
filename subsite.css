@@ -524,7 +524,6 @@ main a:hover {
 
 @media(min-width: 800px) {
 
-    /* nav */
     .ham-btn,
     .times-btn {
         display: none !important;
