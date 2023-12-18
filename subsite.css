@@ -2,6 +2,7 @@
     background: #A87E62;
     color: #ffffff;
 }
+
 body {
     height: 100vh;
     flex-direction: column;
@@ -169,8 +170,6 @@ hr {
     cursor: pointer;
 }
 
-/******* js related styling *****/
-
 .times-btn {
     display: none;
 }
@@ -184,8 +183,6 @@ hr {
 .show-nav {
     height: auto;
 }
-
-/********************/
 
 .nav-bar ul li {
     text-align: center;
@@ -213,7 +210,6 @@ hr {
     display: none;
 }
 
-/* banner */
 
 .banner {
     min-height: auto;
@@ -332,7 +328,6 @@ hr {
     text-decoration: underline;
 }
 
-/** main ***/
 .main {
     display: grid;
     grid-template-columns: 20% 1fr;
@@ -361,7 +356,6 @@ main a:hover {
     color: #A87E62;
 }
 
-/*** main container right */
 .oks {
     padding-left: 20px;
 }
@@ -388,17 +382,9 @@ main a:hover {
     width: 250px;
     height: 250px;
     align-self: center;
-    /* Assuming this is in a flexbox context for vertical alignment */
-    /* Additional properties to control image position */
     margin-left: 0px;
-    /* Example: Adds 20px margin to the left */
-    /* OR */
     position: relative;
-    /* Use position to adjust image position */
     left: 0px;
-    /* Moves the image 20px to the right */
-    /* OR */
-    /* Any other positioning property you prefer */
 }
 
 
@@ -426,58 +412,59 @@ main a:hover {
 }
 
 
-/****** footer *****/
-.footer{
-    background:#8d5d31;
-    padding:30px 0px;
+.footer {
+    background: #8d5d31;
+    padding: 30px 0px;
     font-family: 'Kelly Slab', serif;
-    text-align:center;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #000000;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
     }
-    
-    .footer .row{
-    width:100%;
-    margin:1% 0%;
-    padding:0.6% 0%;
-    color:#fff;
-    font-size:0.8em;
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
     }
-    
-    .footer .row a{
-    text-decoration:none;
-    color:#fff;
-    transition:0.5s;
-    }
-    
-    .footer .row a:hover{
-    color:#000000;
-    }
-    
-    .footer .row ul{
-    width:100%;
-    }
-    
-    .footer .row ul li{
-    display:inline-block;
-    margin:0px 30px;
-    }
-    
-    .footer .row a i{
-    font-size:2em;
-    margin:0% 1%;
-    }
-    
-    @media (max-width:720px){
-    .footer{
-    text-align:left;
-    padding:5%;
-    }
-    .footer .row ul li{
-    display:block;
-    margin:10px 0px;
-    text-align:left;
-    }
-    .footer .row a i{
-    margin:0% 3%;
+
+    .footer .row a i {
+        margin: 0% 3%;
     }
 }
 
@@ -555,7 +542,6 @@ main a:hover {
         flex: 1;
     }
 
-    /* social icons */
     .social-icons {
         flex: 0 1 30%;
         display: block;
