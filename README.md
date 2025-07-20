@@ -10,3 +10,4 @@ Experience the nostalgia of pivotal moments that have defined eras, such as Egyp
 Delve into the intricacies of global scandals like the Cambridge Analytica-Facebook controversy and pivotal historic achievements such as the Apollo 11 Moon Landing. Explore the lives of influential personalities like Heath Ledger and Marilyn Monroe, whose legacies continue to captivate the world.
 
 Retro News isn't just a news website; it's a time machine that transports you to significant junctures in history. Join us as we unravel the threads of time and revisit the moments that have shaped our world. Whether you seek insights into revolutions, triumphs, or tragedies, Retro News is here to guide you through the corridors of history.
+
