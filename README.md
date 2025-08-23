@@ -2,7 +2,7 @@ Welcome to Retro News - Relive the Past!
 !!
 
 Retro News is your gateway to rediscovering and reliving some of the most iconic moments in history. Our platform specializes in delivering the most significant and memorable news events from the past, allowing you to immerse yourself in the stories that have shaped the world.
-
+!!
 With a slogan that encapsulates our mission - "Relive the Past, Retro News Unfolded!" - we curate a collection of historical news pieces that have left an indelible mark on society. From monumental political events like the fall of the Berlin Wall and the tragic 9/11 attacks to cultural milestones such as historic sports victories and groundbreaking moments in cinema, Retro News is your go-to destination to journey back in time.
 
 Experience the nostalgia of pivotal moments that have defined eras, such as Egypt's unprecedented third consecutive win at the Africa Cup of Nations, the groundbreaking nomination of Omar Sharif as the first Egyptian actor for an Oscar, and the gripping tale behind the Ford vs. Ferrari rivalry that unfolded in 1964.
